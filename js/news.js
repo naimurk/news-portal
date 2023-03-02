@@ -104,7 +104,7 @@ const displayModalData = (data) => {
     <div class=" m-5 flex flex-col justify-between">
         <div>
             <h1 class="card-title text-3xl">${title}</h1>
-            <p class= "mt-3">${details.slice(0,400)}...</p>
+            <p class= "mt-3">${details}</p>
         </div>
         <div class="mt-8">
             <p>${details.slice(6,700)}</p>
